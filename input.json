@@ -1,0 +1,63 @@
+{
+  "input1": {
+    "price": 28995,
+    "fee": 1005,
+    "mileage": "47000",
+    "certified": "yes",
+    "comments": "",
+    "buyer": {
+      "contactID": "A1234",
+      "firstName": "John",
+      "lastName": "Doe",
+      "suffix": "SR",
+      "isPerson": "Y"
+    }
+  },
+
+  "input2": {
+    "vehicle": {
+      "specs": {
+        "engine": "2.0L Turbo",
+        "fuel": "Gasoline"
+      },
+      "features": [
+        {
+          "id": "feature1",
+          "name": "Sunroof"
+        },
+        {
+          "id": "feature2",
+          "name": "Leather Seats"
+        },
+        {
+          "id": "feature3",
+          "name": null
+        },
+        {
+          "id": "feature4",
+          "name": "Keyless Entry"
+        }
+      ],
+      "price": {
+        "retail": "23000",
+        "invoice": "21000"
+      }
+    }
+  },
+  
+  "input3": {
+    "vehicle": {
+      "dates": [
+        {
+          "lastModifiedDate": "15/11/2024 15:08:25"
+        },
+        {
+          "lastModifiedDate": "25/06/2025 20:12:00"
+        },
+        {
+          "lastModifiedDate": "30/12/2025 10:33:07"
+        }
+      ]
+    }
+  }
+}
